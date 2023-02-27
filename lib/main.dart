@@ -22,9 +22,6 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Poppins',
       ),
       home: const TicketScreen(),
-
-      // home: const ticketinvoiceScreen(),
-      // home: const TicketChargesScreen(),
     );
   }
 }
