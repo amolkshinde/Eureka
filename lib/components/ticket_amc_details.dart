@@ -50,11 +50,11 @@ class AMC_Details extends StatelessWidget {
         children: [
           Center(
             child: Container(
-              height: 278,
+              height: 282,
               width: 400,
               color: Colors.black,
               child: Padding(
-                padding: const EdgeInsets.all(25.0),
+                padding: const EdgeInsets.all(30.0),
                 child: Column(
                   children: [
                     Container(
@@ -247,7 +247,7 @@ class AMC_Details extends StatelessWidget {
             ),
           ),
           Container(
-            height: 260,
+            height: 300,
             child: SingleChildScrollView(
               child: Padding(
                 padding: const EdgeInsets.all(25.0),

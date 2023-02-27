@@ -29,10 +29,13 @@ class General_Info_Detail extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: new EdgeInsets.symmetric(horizontal: 29.0, vertical: 13),
-      height: 524,
+      height: 588,
       width: 350,
       child: Column(
         children: [
+          SizedBox(
+            height: 10,
+          ),
           Row(
             children: [
               Row(
@@ -43,10 +46,10 @@ class General_Info_Detail extends StatelessWidget {
                   ),
                   Text(
                     ' 09:00 AM',
-                    style: TextStyle(fontSize: 13, color: Colors.black),
+                    style: TextStyle(fontSize: 15, color: Colors.black),
                   ),
                   SizedBox(
-                    width: 130,
+                    width: 122,
                   ),
                   Center(
                     child: Container(
@@ -77,12 +80,12 @@ class General_Info_Detail extends StatelessWidget {
             ],
           ),
           SizedBox(
-            height: 15,
+            height: 25,
           ),
           Column(
             children: [
               Container(
-                height: 20,
+                height: 25,
                 // width: 232,
                 // margin: new EdgeInsets.symmetric(horizontal: 2.0),
                 child: Row(
@@ -125,7 +128,7 @@ class General_Info_Detail extends StatelessWidget {
             ],
           ),
           SizedBox(
-            height: 6,
+            height: 10,
           ),
           Column(
             children: [
@@ -181,7 +184,7 @@ class General_Info_Detail extends StatelessWidget {
             ],
           ),
           SizedBox(
-            height: 2,
+            height: 10,
           ),
           Column(
             // mainAxisAlignment: MainAxisAlignment.start,

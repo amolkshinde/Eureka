@@ -273,7 +273,7 @@ class TicketChargesScreen extends StatelessWidget {
               ),
             ),
             SizedBox(
-              height: 37.2,
+              height: 126.5,
             ),
             Container(
               height: 66,
